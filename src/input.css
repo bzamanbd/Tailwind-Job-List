@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{ 
+    .rightNav{ 
+        @apply inline-block px-4 first:px-0 sm:first:px-4 py-1  text-sm font-[500] text-secondaryColor rounded-sm hover:text-white hover:bg-secondaryColor
+    }
+}
